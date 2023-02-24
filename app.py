@@ -10,7 +10,9 @@ app.register_blueprint(views, url_prefix="/views")
 GoogleMaps(app)
 
 # you can also pass the key here if you prefer
-GoogleMaps(app, key="8JZ7i18MjFuM35dJHq70n3Hx4")
+GoogleMaps(app, key="AIzaSyCV8Z7F1MDhyydJurSxYMYLKWFc_3PGirw")
+
+
 
 if __name__ =='__main__':
     app.run(debug=True, port=8000)
