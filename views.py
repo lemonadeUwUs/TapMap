@@ -7,7 +7,11 @@ import requests
 
 views = Blueprint(__name__,"views")
   
-
+@views.route("/")
+def homeview():
+    
+    return render_template("TapMapMain.html")
+                           
 @views.route("/libraries")
 def libview():
     
@@ -15,4 +19,4 @@ def libview():
 
 @views.route("/buses")
 def busview():
-    return render_template("busmap.html")
+    return render_template("TapMapBus.html")
