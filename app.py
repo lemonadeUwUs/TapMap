@@ -1,19 +1,13 @@
-from flask import Flask
+from flask import Flask, render_template
 from views import views
 from flask_googlemaps import GoogleMaps
 
 app = Flask(__name__)
-app.register_blueprint(views, url_prefix="/views")
+app.register_blueprint(views, url_prefix="/")
 
 
-# Initialize the extension
-GoogleMaps(app)
-
-# you can also pass the key here if you prefer
-GoogleMaps(app, key="AIzaSyCV8Z7F1MDhyydJurSxYMYLKWFc_3PGirw")
-
-
-
+  
 if __name__ =='__main__':
     app.run(debug=True, port=8000)
 
+ 
