@@ -1,6 +1,6 @@
 
 /*
-let key = 'AIzaSyCV8Z7F1MDhyydJurSxYMYLKWFc_3PGirw';
+
 
 let searchradius = '1500';
 
