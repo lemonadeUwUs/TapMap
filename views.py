@@ -23,7 +23,10 @@ def go_to_home():
     return redirect(url_for("views.home"))'''
   
 
-@views.route("/")
-def mapview():
-    
-    return render_template("gmap.html")
+@views.route("/libaries")
+def libview():
+    return render_template("libmap.html")
+
+@views.route("/buses")
+def busview():
+    return render_template("busmap.html")
