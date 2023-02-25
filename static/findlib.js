@@ -1,4 +1,4 @@
-const findme = function () {
+const findme =function () {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {

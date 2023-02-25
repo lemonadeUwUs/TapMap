@@ -15,7 +15,7 @@ def homeview():
 @views.route("/libraries")
 def libview():
     
-    return render_template("libmap.html")
+    return render_template("libmap.html",apikey=apikey)
 
 @views.route("/buses")
 def busview():
