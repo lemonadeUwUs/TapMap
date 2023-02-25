@@ -1,4 +1,7 @@
 #map {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
     height: 400px; /* The height is 400 pixels */
-    width: 50%; /* The width is the width of the web page */
+    width: 400px; /* The width is the width of the web page */
   }
